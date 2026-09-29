@@ -19,5 +19,19 @@ int main() {
 
     aDevolver=dineroQueDa-precioProducto;
     cout << "Debo devolver " << aDevolver << " céntimos. "<< endl;
+
+    // Monedas de 2€
+    int valorMoneda=200;
+    int numMonedas = aDevolver/valorMoneda;
+    aDevolver = aDevolver%valorMoneda;
+    cout << numMonedas << " monedas de 2€" << endl;
+
+    // Monedas de 1€
+    valorMoneda=100;
+    numMonedas = aDevolver/valorMoneda;
+    aDevolver = aDevolver%valorMoneda;
+    cout << numMonedas << " monedas de 1€" << endl;
+
+    
     return 0;
 }
