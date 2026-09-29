@@ -32,6 +32,43 @@ int main() {
     aDevolver = aDevolver%valorMoneda;
     cout << numMonedas << " monedas de 1€" << endl;
 
+    // Monedas de 50 cent
+    valorMoneda=50;
+    numMonedas = aDevolver/valorMoneda;
+    aDevolver = aDevolver%valorMoneda;
+    cout << numMonedas << " monedas de 50 cents." << endl;
+
+   
+    // Monedas de 20 cent
+    valorMoneda=20;
+    numMonedas = aDevolver/valorMoneda;
+    aDevolver = aDevolver%valorMoneda;
+    cout << numMonedas << " monedas de 20 cents." << endl;
+
     
+    // Monedas de 10 cent
+    valorMoneda=10;
+    numMonedas = aDevolver/valorMoneda;
+    aDevolver = aDevolver%valorMoneda;
+    cout << numMonedas << " monedas de 10 cents." << endl;
+
+   
+    // Monedas de 5 cent
+    valorMoneda=5;
+    numMonedas = aDevolver/valorMoneda;
+    aDevolver = aDevolver%valorMoneda;
+    cout << numMonedas << " monedas de 5 cents." << endl;
+
+
+    // Monedas de 2 cent
+    valorMoneda=2;
+    numMonedas = aDevolver/valorMoneda;
+    aDevolver = aDevolver%valorMoneda;
+    cout << numMonedas << " monedas de 2 cents." << endl;
+
+
+    // Monedas de 1 cent
+    cout << aDevolver << " monedas de 1 cents." << endl;
+
     return 0;
 }
